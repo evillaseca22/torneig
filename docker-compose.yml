@@ -6,12 +6,21 @@ services:
       context: .
       dockerfile: Dockerfile-client
     ports:
-      - "80:80"
+      - "9000:80"
     volumes:
       - ./client:/usr/share/nginx/html
 
     depends_on:
       - tomcat
+
+  # php-server:
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile-php
+  #   volumes:
+  #     - ./server:/var/www/html
+  #   depends_on:
+  #     - db
 
   tomcat:
     build:

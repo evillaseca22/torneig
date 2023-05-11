@@ -1,4 +1,4 @@
-const backend='https://vnaranj-musical-waddle-7g77jjxw4qvcxx79-8585.preview.app.github.dev'
+const backend='127.0.0.1:8585'
 
 //div para poder meter el html dinámico
 const resultadosDiv = document.getElementById("resultados");
