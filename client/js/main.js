@@ -1,4 +1,4 @@
-const backend='127.0.0.1:8585'
+const backend='https://evillaseca22-scaling-orbit-v9jvxpq75p5cwxpx-8585.preview.app.github.dev/'
 
 //div para poder meter el html dinámico
 const resultadosDiv = document.getElementById("resultados");
